@@ -1,8 +1,2 @@
 name = "ai"
-
-# Pages build output directory (final build folder)
 pages_build_output_dir = "dist"
-
-# Build command override (remove --frozen-lockfile)
-[build]
-command = "bun install && bun run build"
